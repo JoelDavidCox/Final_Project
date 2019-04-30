@@ -1,0 +1,190 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a5ffa0;
+}
+ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+}
+
+#title-box {
+  position: fixed;
+  left: 8%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#month-box,
+#day-box,
+#year-box {
+  margin: 2px;
+}
+
+#console-box {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+  height: 400px;
+  width: 300px;
+  background-color: #000;
+  color: #989b98;
+  font-family: monospace;
+  padding: 6px;
+}
+
+#jombly-box {
+  position: absolute;
+  top: 48px;
+  left: 6%;
+  width: 580px;
+  height: 620px;
+  background-color: black;
+  padding: 12px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.jombly-month {
+  display: flex;
+  width: 420px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+}
+.month-box {
+  height: 50px;
+  width: 50px;
+  background: #42dff4;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.jombly-days-tens {
+  list-style: none;
+  display: flex;
+  width: 100px;
+  height: 200px;
+  flex-flow: column;
+  border: solid 1px;
+  float: left;
+}
+.day-tens-box {
+  height: 50px;
+  width: 50px;
+  background: #42dff4;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.jombly-days-ones {
+  list-style: none;
+  display: flex;
+  width: 250px;
+  height: 200px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  clear: right;
+}
+.day-ones-box {
+  height: 50px;
+  width: 50px;
+  background: #42dff4;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.jombly-years-thousands {
+  list-style: none;
+  display: flex;
+  width: 75px;
+  height: 200px;
+  flex-flow: column;
+  border: solid 1px;
+  float: left;
+}
+.year-thousands-box {
+  height: 50px;
+  width: 50px;
+  background: #42dff4;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.jombly-years-tens {
+  list-style: none;
+  display: flex;
+  width: 210px;
+  height: 200px;
+  flex-flow: row wrap;
+  border: solid 1px;
+  float: left;
+}
+.year-tens-box {
+  height: 50px;
+  width: 50px;
+  background: #42dff4;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.jombly-years-ones {
+  list-style: none;
+  display: flex;
+  width: 210px;
+  height: 200px;
+  flex-flow: row wrap;
+  border: solid 1px;
+}
+.year-ones-box {
+  height: 50px;
+  width: 50px;
+  background: #42dff4;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+#mon-th {
+  color: darkgray;
+  font-size: 150%;
+  text-align: center;
+}
+
+#ten-day {
+  color: darkgray;
+  font-size: 150%;
+  text-align: center;
+}
+
+#ten-year {
+  color: darkgray;
+  font-size: 150%;
+  text-align: center;
+}
+
+.selected {
+  background-color: gray;
+  font-weight: bold;
+}
+
+#code-page{
+  color: black;
+  position: relative;
+  top: 25px;
+  left: 1000px;
+}
+#home-page {
+  color: black;
+  position: relative;
+  top: 50px;
+  left: 1000px;

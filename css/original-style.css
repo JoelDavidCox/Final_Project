@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {margin:0;padding:0;background-color:#D3D3;}
+ul {margin: 0px; list-style:none;padding:0px; }
+
+#title-box{
+  position:fixed;
+  left:8%;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+#month-box,#day-box,#year-box {
+  margin: 2px; 
+}
+
+#console-box{
+  position:absolute;
+  top:48px; 
+  right:48px;
+  height:400px;
+  width:300px;
+  background-color:#000;
+  color: #55ff55;
+  font-family: monospace;
+  padding:6px; 
+}
+
+#tumbly-box {
+ position:absolute; 
+ top: 48px;
+ left: 6%; 
+ width: 580px; 
+ height: 600px; 
+ background-color: #FF5733;
+ padding: 12px; 
+ display:flex;
+ flex-flow: column; 
+ align-content: center;
+ align-items: center;
+ justify-content:center; 
+}
+.tumbly-month {
+  display:flex;
+  width: 420px; 
+  flex-flow: row wrap; 
+  border: solid 1px; 
+  justify-content: center; 
+  align-items: center; 
+  align-content: center; 
+  margin: 0px; 
+}
+.month-box {
+  height:50px;
+  width:50px;
+  background: tomato;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.tumbly-days-tens {
+  list-style:none; 
+  display:flex;
+  width: 100px;
+  height: 200px; 
+  flex-flow: column; 
+  border: solid 1px; 
+  float: left; 
+}
+.day-tens-box {
+  height:50px;
+  width:50px;
+  background: tomato;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.tumbly-days-ones {
+  list-style:none; 
+  display:flex;
+  width: 250px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: solid 1px; 
+  clear: right;  
+}
+.day-ones-box {
+  height:50px;
+  width:50px;
+  background: tomato;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.tumbly-years-thousands {
+  list-style:none; 
+  display:flex;
+  width: 75px;
+  height: 200px; 
+  flex-flow: column; 
+  border: solid 1px;
+  float:left; 
+}
+.year-thousands-box {
+  height:50px;
+  width:50px;
+  background: tomato;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.tumbly-years-tens {
+  list-style:none; 
+  display:flex;
+  width: 210px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: solid 1px;
+  float:left; 
+}
+.year-tens-box {
+  height:50px;
+  width:50px;
+  background: tomato;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+.tumbly-years-ones {
+  list-style:none; 
+  display:flex;
+  width: 210px;
+  height: 200px; 
+  flex-flow: row wrap; 
+  border: solid 1px; 
+}
+.year-ones-box {
+  height:50px;
+  width:50px;
+  background: tomato;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.selected {
+  background-color: yellow;
+  font-weight: bold; 
+}
+
+
+
+
